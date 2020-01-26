@@ -15,14 +15,14 @@ namespace ps206415_MIS4200.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Driven student at Ohio University";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Patricia Schneider";
 
             return View();
         }
