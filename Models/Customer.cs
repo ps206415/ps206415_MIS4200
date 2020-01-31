@@ -16,4 +16,5 @@ namespace ps206415_MIS4200.Models
         public string phone { get; set; }
         public DateTime customerSince { get; set; }
     }
+
 }
