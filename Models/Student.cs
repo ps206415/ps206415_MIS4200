@@ -15,9 +15,8 @@ namespace ps206415_MIS4200.Models
         public string email { get; set; }
         public string phone { get; set; }
         public DateTime studentSince { get; set; }
-        public string fullName
-        {
-            get { return studentLastName + ", " + studentFirstName; }
-        }
+
+        // a student can be enrolled in several classes
+        public ICollection<Enrollment> Enrollment { get; set; }
     }
 }
