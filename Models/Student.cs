@@ -8,7 +8,7 @@ namespace ps206415_MIS4200.Models
 {
     public class Student
     {
-        public System.Guid SID { get; set; }
+        public int studentID { get; set; }
         
         //if you type prop for property the tab tab it will give property
         public string studentLastName { get; set; }
@@ -31,6 +31,6 @@ namespace ps206415_MIS4200.Models
         // a student can be enrolled in several classes
         public ICollection<Enrollment> Enrollment { get; set; }
 
-        public string fullName { get; return studentLastName +", "+ studentFirstName; }
+        public string fullName { get { return studentLastName + ", " + studentFirstName; } }
     }
 }
