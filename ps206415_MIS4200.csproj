@@ -187,6 +187,8 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Orders.cs" />
+    <Compile Include="Models\ReqularExpressionAttribute.cs" />
+    <Compile Include="Models\ReqularExpressionsAttribute.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />

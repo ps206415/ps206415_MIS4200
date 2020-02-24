@@ -39,6 +39,7 @@ namespace ps206415_MIS4200.Controllers
         // GET: Students/Create
         public ActionResult Create()
         {
+            
             return View();
         }
 

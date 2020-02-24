@@ -39,6 +39,7 @@ namespace ps206415_MIS4200.Controllers
         // GET: Courses/Create
         public ActionResult Create()
         {
+            ViewBag.SID = new SelectList(db.Students, "StudentID", "fullName");
             return View();
         }
 
