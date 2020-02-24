@@ -30,5 +30,7 @@ namespace ps206415_MIS4200.Models
 
         // a student can be enrolled in several classes
         public ICollection<Enrollment> Enrollment { get; set; }
+
+        public string fullName { get; return studentLastName +", "+ studentFirstName; }
     }
 }
