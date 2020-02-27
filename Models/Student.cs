@@ -8,7 +8,7 @@ namespace ps206415_MIS4200.Models
 {
     public class Student
     {
-        public int studentID { get; set; }
+        public System.Guid studentID { get; set; }
         
         //if you type prop for property the tab tab it will give property
         public string studentLastName { get; set; }
